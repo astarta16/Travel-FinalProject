@@ -36,3 +36,4 @@ document.getElementById('play-btn').addEventListener('click', () => {
         video.pause();
     }
 });
+
