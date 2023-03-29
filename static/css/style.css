@@ -207,7 +207,7 @@ footer {
 }
 
 #footer_content {
-    background-color: var(--color-gray);
+    background-color:var(--dark);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
@@ -565,4 +565,8 @@ header.header-sm{
 .form-submit-btn input:hover{
     background: rgba(56, 204, 93, 0.7);
     color: rgb(224, 223, 223);
+}
+
+.Registration{
+    padding: 7rem 0;
 }
