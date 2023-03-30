@@ -275,7 +275,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    color: #7f37c9;
+    color: #2b46c0;
 }
 
 #footer_subscribe {
@@ -482,7 +482,7 @@ footer {
     overflow: auto;
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
-  }
+}
 
 .modal-content {
     background-color: #fefefe;
@@ -490,26 +490,26 @@ footer {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-  }
+}
 
 .close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
 
 .close:hover,
 .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
   .contact-modal{
     padding: 2rem 0;
     font-size: 2rem;
-  }
+}
 
 .container-modal {
     max-width: 100%;
@@ -521,7 +521,8 @@ footer {
 .contact-modal {
     margin-top: 50px;
     position: relative;
-  }
+}
+
 h2 {
     font-size: 24px;
     text-align: center;
@@ -541,7 +542,7 @@ button {
   
 button:hover {
     background-color: #3e8e41;
-  }
+}
   
   
 .modal {
