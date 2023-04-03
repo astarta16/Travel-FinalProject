@@ -1,13 +1,14 @@
+const modal = document.getElementById("login-modal");
+const btn = document.getElementById("open-modal-btn");
 
-const modal = document.getElementById("myModal");
-const btn = document.getElementById("openModalBtn");
-const span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
   modal.style.display = "block";
+  document.body.style.overflow = "hidden"; 
 }
-
-span.onclick = function() {
-  modal.style.display = "none";
+window.onclick = function(event) {
+  if (event.target == modal || event.target.classList.contains("close")) {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto"; 
+  }
 }
-
