@@ -27,13 +27,22 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// play/pause video
-let video = document.querySelector('.video-wrapper video');
-document.getElementById('play-btn').addEventListener('click', () => {
-    if(video.paused){
-        video.play();
-    } else {
-        video.pause();
-    }
-});
+// video section 
+const video = document.getElementById("myVideo");
+const playButton = document.getElementById("playButton");
+const playIcon = document.getElementById("playIcon");
+const pauseIcon = document.getElementById("pauseIcon");
+
+function playPause() {
+  if (video.paused) {
+    video.play();
+    playIcon.style.display = "none";
+    pauseIcon.style.display = "inline-block";
+  } else {
+    video.pause();
+    pauseIcon.style.display = "none";
+    playIcon.style.display = "inline-block";
+  }
+}
+
 

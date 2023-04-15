@@ -568,3 +568,34 @@ footer {
     border-radius: 3px;
   }
 
+ 
+  button#playButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button#playButton i {
+    font-size: 36px;
+  }
+  
+  button#pauseIcon {
+    display: none;
+  }
+
+  .video-wrapper {
+    position: relative;
+  }
+  
+  #playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #pauseIcon{
+    display: none;
+  }
+  
+

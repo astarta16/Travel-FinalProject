@@ -147,16 +147,18 @@
             </div>
         </section>
          <!-- video section -->
-         <section id = "video">
-            <div class = "video-wrapper flex">
-                <video loop>
-                    <source src = "./static/videos/video-section.mp4" type = "video/mp4">
-                </video>
-                <button type = "button" id = "play-btn">
-                    <i class = "fas fa-play"></i>
-                </button>
+         <section id="video">
+            <div class="video-wrapper flex">
+              <video id="myVideo" loop>
+                <source src="./static/videos/video-section.mp4" type="video/mp4">
+              </video>
+              <button id="playButton" onclick="playPause()">
+                <i id="playIcon" class="fas fa-play"></i>
+                <i id="pauseIcon" class="fas fa-pause"></i>
+              </button>
             </div>
-        </section>
+          </section>
+          
     </main>
 
     <footer>
